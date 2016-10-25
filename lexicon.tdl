@@ -1,0 +1,38 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Nouns
+
+pinggwo := common-noun-lex &
+  [ STEM < "pinggwo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pinggwo_n_rel" ].
+
+ce := common-noun-lex &
+  [ STEM < "ce" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ce_n_rel" ].
+
+;;; Verbs
+
+siu := intr-verb-lex &
+  [ STEM < "siu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_siu_v_rel" ].
+
+dou := intr-verb-lex &
+  [ STEM < "dou" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dou_v_rel" ].
+
+sik := tr-verb-lex &
+  [ STEM < "sik" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sik _v_rel" ].
+
+zungji := tr-verb-lex &
+  [ STEM < "zungji" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_zungji_v_rel" ].
+
+;;; Determiners
+
+lei := demonstrative-determiner-lex &
+  [ STEM < "lei" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_lei_q_rel" ].
+
+go := demonstrative-determiner-lex &
+  [ STEM < "go" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_go_q_rel" ].
